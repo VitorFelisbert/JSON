@@ -1,24 +1,24 @@
 const objs = [
     {
-nome: Vitor, 
-idade: 30,
-estaTrabalhando:true,
-detalhes_profissao: {
-    profissao: Programador,
-    empresa: EmpresasLog,
-},
-hobbies: ['programar', 'ler']
+        nome: 'Vitor',
+        idade: 30,
+        estaTrabalhando: true,
+        detalhes_profissao: {
+            profissao: 'Programador',
+            empresa: 'EmpresasLog',
+        },
+        hobbies: ['programar', 'ler']
     },
     {
-     nome: Edson, 
-idade: 32,
-estaTrabalhando:null,
-detalhes_profissao: {
-    profissao: Confeiteiro,
-    empresa: null,
-},
-hobbies: ['fazer comida', 'ler']
-    },   
+        nome: 'Edson',
+        idade: 32,
+        estaTrabalhando: false,
+        detalhes_profissao: {
+            profissao: 'Confeiteiro',
+            empresa: null,
+        },
+        hobbies: ['fazer comida', 'ler']
+    },
 ]
 
 //JSON
