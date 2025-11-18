@@ -30,5 +30,5 @@ console.log(typeof jsonData)
 const objData = JSON.parse(jsonData)
 
 objData.map((pessoa) => {
-    consloe.log(pessoa.nome)
+    conslole.log(pessoa.nome)
 })
